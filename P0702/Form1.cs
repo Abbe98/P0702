@@ -24,7 +24,7 @@ namespace P0702
             }
         }
 
-        // error wrapper
+        // error wrapper :: passing textbox as anonymous object
         private void error(ref Label textbox)
         {
             textbox.ForeColor = Color.Black;
@@ -32,7 +32,7 @@ namespace P0702
             MessageBox.Show("Ange värderna 0 eller 1", "Hoppsan!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
-        // output
+        // output :: passing textbox as anonymous object
         private void output(ref Label textbox, bool success)
         {
             
